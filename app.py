@@ -34,7 +34,7 @@ def getNewAgoraToken(myquery):
     channelName = data[0]
     uid = data[1]
     
-    token = RtcTokenBuilder.buildTokenWithUid(appId, appCertificate, channelName, 0, 1, privilegeExpiredTs)
+    token = RtcTokenBuilder.buildTokenWithUid(appId, appCertificate, channelName, uid, 1, privilegeExpiredTs)
 
     return token
 
