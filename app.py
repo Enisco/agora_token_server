@@ -31,6 +31,7 @@ def getNewAgoraToken(myquery):
     print(myquery)
     data = myquery.split ("~", 1)
     print(data[0])
+    print(data[1])
     channelName = data[0]
     uid = data[1]
     
