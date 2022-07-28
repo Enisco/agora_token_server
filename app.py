@@ -5,8 +5,7 @@ import time
 from random import randint
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from agora_token_builder import RtcTokenBuilder
-
-from flask import Flask
+from flask import Flask, jsonify
 app = Flask(__name__)
 
 Role_Attendee = 0 # depreated, same as publisher
