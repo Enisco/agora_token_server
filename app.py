@@ -12,8 +12,8 @@ Role_Attendee = 0 # depreated, same as publisher
 Role_Publisher = 1 # for live broadcaster
 Role_Subscriber = 2 # default, for live audience
 
-appId = "aaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-appCertificate = "aaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+appId = "ae5fd2a5833c4da5937bbd3a5d01b646"
+appCertificate = "b6e2d56a64f7436d829db594fc0d51ce"
 expireTimeInSeconds = 86400
 currentTimestamp = int(time.time())
 privilegeExpiredTs = currentTimestamp + expireTimeInSeconds
